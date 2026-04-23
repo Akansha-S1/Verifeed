@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    width: 220px;
+    padding: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+#status {
+    font-size: 18px;
+    font-weight: bold;
+}
