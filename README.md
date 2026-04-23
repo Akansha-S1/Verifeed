@@ -1,12 +1,14 @@
-**🚀 VeriFeed**
+<img width="2816" height="1536" alt="Gemini_Generated_Image_80bze580bze580bz" src="https://github.com/user-attachments/assets/1caeb0fd-09a0-4e02-afa9-034ef5056473" /><img width="693" height="178" alt="image" src="https://github.com/user-attachments/assets/e80ab012-b3a7-4fd6-971c-f188eec08748" />**🚀 VeriFeed**
+
 AI-Powered Cross-Platform System for Real-Time Deepfake Detection with Non-Intrusive Visual Alerts
+
 **📌 Overview**
 
 VeriFeed is a full-stack AI system designed to detect deepfake and manipulated media in real-time across social media platforms. It integrates a browser extension for content capture, a FastAPI backend, and a hybrid AI detection pipeline combining a custom CNN model with external verification APIs.
 
 This hybrid approach ensures higher accuracy, robustness, and real-time performance, while maintaining a non-intrusive user experience through visual alert overlays.
 
-** Key Features**
+**Key Features**
 1) Real-Time Deepfake Detection
 2) Hybrid AI Model (CNN + API Integration)
 3) Cross-Platform Compatibility
@@ -15,49 +17,13 @@ This hybrid approach ensures higher accuracy, robustness, and real-time performa
 6) FastAPI Backend for Scalable Inference
 7) Image / Multi-frame Analysis Support
 
-**System Architecture**
-
-[ Browser Extension ]
-        │
-        ▼
-[ Image Capture from Feed ]
-        │
-        ▼
-[ FastAPI Backend ]
-        │
-        ├── Custom CNN Model (Deepfake Detection)
-        ├── External API (e.g., Sightengine)
-        │
-        ▼
-[ Hybrid Decision Engine ]
-        │
-        ▼
-[ Prediction Result ]
-        │
-        ▼
-[ Non-Intrusive Overlay Alert ]
 
 **Tech Stack**
 <img width="693" height="178" alt="image" src="https://github.com/user-attachments/assets/dddd5a76-d628-4e13-97ab-d6fa93a6d7ad" />
 
 📂**Project Structure**
 
-Verifeed/
-│
-├── frontend/                # Chrome Extension
-│   ├── manifest.json
-│   ├── content.js
-│   ├── background.js
-│   └── styles/
-│
-├── backend/                 # FastAPI Server
-│   ├── main.py
-│   ├── model/               # CNN model + API integration
-│   ├── utils/
-│   └── requirements.txt
-│
-├── .gitignore
-└── README.md
+<img width="455" height="371" alt="image" src="https://github.com/user-attachments/assets/3380ef57-83b6-4fc0-8855-a08282d8c0e8" />
 
 **Installation & Setup
 🔹 1. Clone the Repository**
@@ -76,27 +42,36 @@ uvicorn main:app --reload
 **Backend runs at:**
 
 http://127.0.0.1:8000
+
+
 **🔹 3. Frontend Setup (Chrome Extension)**
+
+
 Open chrome://extensions/
 Enable Developer Mode
 Click Load Unpacked
 Select the frontend/ folder
+
 **API Workflow**
+
+<img width="2816" height="1536" alt="Gemini_Generated_Image_80bze580bze580bz" src="https://github.com/user-attachments/assets/1d5fd018-10d0-4dbd-b9c3-0f9566e7fb7a" />
+
+
 **Step	Description**
-1	Extension captures image from media feed
-2	Sends image to FastAPI backend
-3	CNN model analyzes image
-4	External API performs secondary validation
-5	Hybrid system combines results
-6	Final prediction returned
-7	Overlay warning displayed in UI
-📊 Example API Response
+
+<img width="692" height="187" alt="image" src="https://github.com/user-attachments/assets/af902a16-78bd-41f0-a2b1-102cb169849b" />
+
+
+**Example API Response**
+
+
 {
   "status": "success",
   "prediction": "deepfake",
   "confidence": 0.92
 }
 **AI Model Strategy**
+
 Hybrid Detection Approach
 
 **VeriFeed uses a dual-layer AI pipeline:
