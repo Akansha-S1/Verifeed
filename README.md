@@ -100,6 +100,7 @@ Hybrid Detection Approach
 
 
 **Future Enhancements**
+
 VeriFeed is designed with a forward-looking roadmap that includes extending its capabilities to video-based deepfake detection, integrating more advanced CNN and transformer-based architectures, enabling scalable cloud deployment on platforms like AWS or GCP, and building an analytics dashboard alongside a trust scoring system for media authenticity. At the same time, the system addresses key real-world challenges such as minimizing real-time inference latency, ensuring efficient cross-platform media capture, maintaining seamless and non-intrusive UI overlay integration, enabling reliable backend communication, and effectively handling dynamic as well as noisy input data from diverse online sources.
 
 **Author**
