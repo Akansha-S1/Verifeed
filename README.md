@@ -1,6 +1,8 @@
-<img width="2816" height="1536" alt="Gemini_Generated_Image_80bze580bze580bz" src="https://github.com/user-attachments/assets/1caeb0fd-09a0-4e02-afa9-034ef5056473" /><img width="693" height="178" alt="image" src="https://github.com/user-attachments/assets/e80ab012-b3a7-4fd6-971c-f188eec08748" />**🚀 VeriFeed**
+**🚀 VeriFeed**
+
 
 AI-Powered Cross-Platform System for Real-Time Deepfake Detection with Non-Intrusive Visual Alerts
+
 
 **📌 Overview**
 
@@ -77,30 +79,19 @@ Hybrid Detection Approach
 **VeriFeed uses a dual-layer AI pipeline:
 🤖 Custom CNN Model**
 
-Trained for image-based deepfake detection
-Fast inference for real-time use
-Handles core classification
-🌐 External API (e.g., Sightengine)
-Provides additional validation
-Improves detection reliability
-Handles edge cases
+<img width="650" height="417" alt="image" src="https://github.com/user-attachments/assets/822eeec5-849b-4a60-b206-19722348dbd1" />
+s
 **Why Hybrid?**
+
 ✅ Higher accuracy than standalone models
 ✅ Reduced false positives/negatives
 ✅ More robust across diverse content
 ✅ Scalable for real-world deployment
-🚧 Future Enhancements
-🎥 Video-based deepfake detection
-🧠 Advanced CNN / Transformer architectures
-☁️ Cloud deployment (AWS / GCP)
-📊 Analytics dashboard
-🔐 Trust scoring system for media
-🧩 Challenges Addressed
-Real-time inference latency
-Cross-platform media capture
-Seamless UI overlay integration
-Reliable backend communication
-Handling dynamic and noisy input data
+
+
+**Future Enhancements**
+VeriFeed is designed with a forward-looking roadmap that includes extending its capabilities to video-based deepfake detection, integrating more advanced CNN and transformer-based architectures, enabling scalable cloud deployment on platforms like AWS or GCP, and building an analytics dashboard alongside a trust scoring system for media authenticity. At the same time, the system addresses key real-world challenges such as minimizing real-time inference latency, ensuring efficient cross-platform media capture, maintaining seamless and non-intrusive UI overlay integration, enabling reliable backend communication, and effectively handling dynamic as well as noisy input data from diverse online sources.
+
 **Author**
 Akansha Shetty
 AI & Data Engineering | Jain University
