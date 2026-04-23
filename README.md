@@ -15,7 +15,8 @@ This hybrid approach ensures higher accuracy, robustness, and real-time performa
 6) FastAPI Backend for Scalable Inference
 7) Image / Multi-frame Analysis Support
 
-** System Architecture**
+**System Architecture**
+
 [ Browser Extension ]
         │
         ▼
@@ -39,7 +40,8 @@ This hybrid approach ensures higher accuracy, robustness, and real-time performa
 **Tech Stack**
 <img width="693" height="178" alt="image" src="https://github.com/user-attachments/assets/dddd5a76-d628-4e13-97ab-d6fa93a6d7ad" />
 
-📂** Project Structure**
+📂**Project Structure**
+
 Verifeed/
 │
 ├── frontend/                # Chrome Extension
