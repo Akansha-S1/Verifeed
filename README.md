@@ -10,7 +10,9 @@ VeriFeed is a full-stack AI system designed to detect deepfake and manipulated m
 
 This hybrid approach ensures higher accuracy, robustness, and real-time performance, while maintaining a non-intrusive user experience through visual alert overlays.
 
+
 **Key Features**
+
 1) Real-Time Deepfake Detection
 2) Hybrid AI Model (CNN + API Integration)
 3) Cross-Platform Compatibility
@@ -23,12 +25,16 @@ This hybrid approach ensures higher accuracy, robustness, and real-time performa
 **Tech Stack**
 <img width="693" height="178" alt="image" src="https://github.com/user-attachments/assets/dddd5a76-d628-4e13-97ab-d6fa93a6d7ad" />
 
+
 📂**Project Structure**
 
 <img width="455" height="371" alt="image" src="https://github.com/user-attachments/assets/3380ef57-83b6-4fc0-8855-a08282d8c0e8" />
 
-**Installation & Setup
-🔹 1. Clone the Repository**
+
+**Installation & Setup**
+
+
+**🔹 1. Clone the Repository**
 git clone https://github.com/Akansha-S1/Verifeed.git
 cd Verifeed
 **🔹 2. Backend Setup (FastAPI)**
@@ -54,6 +60,7 @@ Enable Developer Mode
 Click Load Unpacked
 Select the frontend/ folder
 
+
 **API Workflow**
 
 <img width="2816" height="1536" alt="Gemini_Generated_Image_80bze580bze580bz" src="https://github.com/user-attachments/assets/1d5fd018-10d0-4dbd-b9c3-0f9566e7fb7a" />
@@ -72,6 +79,8 @@ Select the frontend/ folder
   "prediction": "deepfake",
   "confidence": 0.92
 }
+
+
 **AI Model Strategy**
 
 Hybrid Detection Approach
@@ -80,7 +89,8 @@ Hybrid Detection Approach
 🤖 Custom CNN Model**
 
 <img width="650" height="417" alt="image" src="https://github.com/user-attachments/assets/822eeec5-849b-4a60-b206-19722348dbd1" />
-s
+
+
 **Why Hybrid?**
 
 ✅ Higher accuracy than standalone models
